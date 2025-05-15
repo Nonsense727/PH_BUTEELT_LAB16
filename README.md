@@ -27,3 +27,6 @@ docker build -t lab13 --platform linux/amd64 .
 ```
 
 Та контейнерийг `docker run -p 8080:8080 lab13` командаар ажиллуулж болно. Ингэснээр командын мөрөнд сервер эхэлж байгааг харах боломжтой бөгөөд `http://localhost:8080` хаягаар хандах боломжтой байх ёстой.
+
+
+gcloud compute ssh instance-vm4-lab16 --project=composed-slice-457910-j6 --zone=us-central1-c
